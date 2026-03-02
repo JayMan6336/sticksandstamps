@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="description" content="Sticks & Stamps — Rare US postage stamps, MNH original gum, Washington, Franklin, Commemoratives. Trusted eBay seller since 2004. 100% positive feedback.">
+<meta name="keywords" content="US stamps, rare stamps, MNH stamps, original gum, Washington stamp, Franklin stamp, Pan-American stamps, Trans-Mississippi, airmail, eBay stamps">
+<meta property="og:title" content="Sticks & Stamps | Rare US Postage Since 2004">
+<meta property="og:description" content="Mint Never Hinged US stamps, 100% positive feedback, trusted since 2004.">
+<meta name="theme-color" content="#0d0c0a">
+<title>Sticks & Stamps | Rare US Postage — Trusted Since 2004</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=DM+Mono:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg:#0d0c0a; --bg2:#13120f; --bg3:#1a1814; --bg4:#201e19;
+  --border:rgba(180,140,80,0.18); --border2:rgba(180,140,80,0.3);
+  --gold:#c8923a; --gold2:#e8b86d; --rust:#a83820; --rust2:#c94a30;
+  --cream:#f0e4cc; --muted:#8a7d6a; --text:#d8ccb8; --stamp-bg:#1e1b16;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;}
+body{background:var(--bg);color:var(--text);font-family:'Cormorant Garamond',Georgia,serif;font-size:18px;line-height:1.7;overflow-x:hidden;}
+body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");pointer-events:none;z-index:9999;}
+
+/* ── NAV ── */
+nav{position:fixed;top:0;left:0;right:0;z-index:900;display:flex;align-items:center;justify-content:space-between;padding:1rem 2rem;background:rgba(13,12,10,0.97);border-bottom:1px solid var(--border);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);}
+.nav-logo{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:900;color:var(--cream);text-decoration:none;letter-spacing:0.04em;flex-shrink:0;}
+.nav-logo span{color:var(--gold);}
+.nav-links{display:flex;gap:2rem;list-style:none;}
+.nav-links a{font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);text-decoration:none;transition:color .2s;white-space:nowrap;}
+.nav-links a:hover{color:var(--gold);}
+.nav-cta{font-family:'DM Mono',monospace;font-size:0.62rem;letter-spacing:0.1em;text-transform:uppercase;background:var(--gold);color:var(--bg);padding:0.55rem 1.2rem;text-decoration:none;border:1px solid var(--gold);transition:all .2s;white-space:nowrap;flex-shrink:0;font-weight:500;}
+.nav-cta:hover{background:transparent;color:var(--gold);}
+.nav-hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;padding:4px;background:none;border:none;}
+.nav-hamburger span{display:block;width:22px;height:2px;background:var(--cream);transition:all .3s;}
+.mobile-menu{display:none;position:fixed;top:60px;left:0;right:0;background:var(--bg2);border-bottom:1px solid var(--border);z-index:850;padding:1.5rem 2rem;flex-direction:column;gap:1.2rem;}
+.mobile-menu.open{display:flex;}
+.mobile-menu a{font-family:'DM Mono',monospace;font-size:0.72rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:0.5rem 0;border-bottom:1px solid var(--border);}
+.mobile-menu .mobile-cta{background:var(--gold);color:var(--bg);text-align:center;padding:0.8rem;font-weight:500;border:none;margin-top:0.5rem;}
+
+/* ── HERO ── */
+.hero{min-height:100svh;display:grid;grid-template-columns:1fr 1fr;padding-top:62px;position:relative;overflow:hidden;}
+.hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 70% at 70% 40%,rgba(200,146,58,.06) 0%,transparent 70%),radial-gradient(ellipse 40% 50% at 20% 70%,rgba(168,56,32,.05) 0%,transparent 60%);pointer-events:none;}
+.hero-left{display:flex;flex-direction:column;justify-content:center;padding:4rem 3rem 4rem 5rem;position:relative;z-index:2;}
+.hero-eyebrow{font-family:'DM Mono',monospace;font-size:0.6rem;letter-spacing:0.22em;text-transform:uppercase;color:var(--gold);margin-bottom:1.4rem;display:flex;align-items:center;gap:0.8rem;}
+.hero-eyebrow::before{content:'';display:block;width:20px;height:1px;background:var(--gold);}
+.hero-title{font-family:'Playfair Display',serif;font-size:clamp(2.8rem,5vw,5.2rem);font-weight:900;line-height:1.0;color:var(--cream);margin-bottom:1.4rem;}
+.hero-title em{font-style:italic;color:var(--gold2);}
+.hero-subtitle{font-size:1rem;font-weight:300;font-style:italic;color:var(--muted);max-width:400px;margin-bottom:2.5rem;line-height:1.9;}
+.hero-actions{display:flex;gap:1rem;align-items:center;flex-wrap:wrap;}
+.btn-primary{font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.1em;text-transform:uppercase;background:var(--gold);color:var(--bg);padding:0.9rem 2rem;text-decoration:none;border:2px solid var(--gold);transition:all .25s;display:inline-block;font-weight:500;-webkit-tap-highlight-color:transparent;}
+.btn-primary:hover,.btn-primary:active{background:transparent;color:var(--gold);}
+.btn-secondary{font-family:'DM Mono',monospace;font-size:0.65rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding:0.9rem 0;border-bottom:1px solid rgba(138,125,106,.4);transition:all .25s;display:inline-block;-webkit-tap-highlight-color:transparent;}
+.btn-secondary:hover{color:var(--cream);border-color:var(--cream);}
+.hero-stats{display:flex;gap:2.5rem;margin-top:3.5rem;padding-top:2.5rem;border-top:1px solid var(--border);flex-wrap:wrap;}
+.stat-number{font-family:'Playfair Display',serif;font-size:2rem;font-weight:700;color:var(--gold2);display:block;}
+.stat-label{font-family:'DM Mono',monospace;font-size:0.55rem;letter-spacing:0.16em;text-transform:uppercase;color:var(--muted);}
+.hero-right{position:relative;background:var(--bg2);border-left:1px solid var(--border);display:flex;align-items:center;justify-content:center;overflow:hidden;}
+.hero-bg-pattern{position:absolute;inset:0;opacity:.04;background-image:repeating-linear-gradient(0deg,transparent,transparent 38px,rgba(200,146,58,.6) 38px,rgba(200,146,58,.6) 39px),repeating-linear-gradient(90deg,transparent,transparent 38px,rgba(200,146,58,.6) 38px,rgba(200,146,58,.6) 39px);}
+.hero-stamp-wrap{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:1.2rem;}
+
+/* ── STAMP FRAME ── */
+.stamp-frame{width:220px;height:275px;background:var(--stamp-bg);position:relative;display:flex;align-items:center;justify-content:center;flex-direction:column;box-shadow:0 0 60px rgba(200,146,58,.1),0 25px 50px rgba(0,0,0,.6);border:13px solid var(--bg3);animation:glowPulse 4s ease-in-out infinite;}
+.stamp-frame::before{content:'';position:absolute;inset:-13px;background:radial-gradient(circle at 0% 50%,transparent 5px,var(--bg3) 5px) left center/9px 18px,radial-gradient(circle at 100% 50%,transparent 5px,var(--bg3) 5px) right center/9px 18px,radial-gradient(circle at 50% 0%,transparent 5px,var(--bg3) 5px) center top/18px 9px,radial-gradient(circle at 50% 100%,transparent 5px,var(--bg3) 5px) center bottom/18px 9px;background-repeat:repeat-y,repeat-y,repeat-x,repeat-x;}
+.stamp-inner-label{font-family:'DM Mono',monospace;font-size:.48rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.3rem;}
+.stamp-inner-title{font-family:'Playfair Display',serif;font-size:1.1rem;font-weight:700;color:var(--cream);text-align:center;line-height:1.2;}
+.stamp-emoji{font-size:2.8rem;margin:.4rem 0;}
+.stamp-usa{font-family:'Playfair Display',serif;font-size:.7rem;font-weight:900;letter-spacing:.4em;color:var(--rust2);}
+.stamp-year{font-family:'DM Mono',monospace;font-size:.46rem;letter-spacing:.18em;color:var(--muted);margin-top:.4rem;}
+.stamp-caption{font-family:'DM Mono',monospace;font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);text-align:center;}
+@keyframes glowPulse{0%,100%{box-shadow:0 0 40px rgba(200,146,58,.08),0 25px 50px rgba(0,0,0,.6);}50%{box-shadow:0 0 80px rgba(200,146,58,.2),0 25px 50px rgba(0,0,0,.6);}}
+
+/* ── MARQUEE ── */
+.marquee-section{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);overflow:hidden;}
+.marquee-header{display:flex;align-items:center;gap:0;border-bottom:1px solid var(--border);}
+.marquee-label{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.18em;text-transform:uppercase;color:var(--bg);background:var(--gold);padding:.55rem 1.2rem;white-space:nowrap;display:inline-block;flex-shrink:0;}
+.marquee-header-text{font-family:'DM Mono',monospace;font-size:.55rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);padding:0 1.5rem;display:none;}
+.marquee-stars{padding:0 1rem;color:var(--gold);font-size:.75rem;}
+.marquee-wrap{overflow:hidden;padding:1.2rem 0;position:relative;}
+.marquee-wrap::before,.marquee-wrap::after{content:'';position:absolute;top:0;bottom:0;width:80px;z-index:2;pointer-events:none;}
+.marquee-wrap::before{left:0;background:linear-gradient(to right,var(--bg2),transparent);}
+.marquee-wrap::after{right:0;background:linear-gradient(to left,var(--bg2),transparent);}
+.marquee-track{display:flex;gap:1.5rem;width:max-content;animation:scrollLeft 90s linear infinite;}
+.marquee-track:hover{animation-play-state:paused;}
+.marquee-track2{display:flex;gap:1.5rem;width:max-content;animation:scrollLeft 70s linear infinite;animation-delay:-35s;}
+.marquee-track2:hover{animation-play-state:paused;}
+@keyframes scrollLeft{from{transform:translateX(0);}to{transform:translateX(-50%);}}
+.review-card{background:var(--bg3);border:1px solid var(--border);padding:1.1rem 1.4rem;min-width:290px;max-width:330px;flex-shrink:0;position:relative;transition:border-color .2s;}
+.review-card:hover{border-color:var(--gold);}
+.review-card::before{content:'"';position:absolute;top:.4rem;right:.9rem;font-family:'Playfair Display',serif;font-size:2.5rem;color:rgba(200,146,58,.1);line-height:1;}
+.review-stars{color:var(--gold);font-size:.65rem;letter-spacing:.08em;margin-bottom:.4rem;}
+.review-text{font-size:.85rem;font-style:italic;color:var(--text);line-height:1.55;margin-bottom:.7rem;}
+.review-meta{display:flex;justify-content:space-between;align-items:flex-end;}
+.review-item{font-family:'DM Mono',monospace;font-size:.48rem;letter-spacing:.06em;color:var(--gold);max-width:180px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.review-buyer{font-family:'DM Mono',monospace;font-size:.48rem;color:var(--muted);text-align:right;}
+.seller-card{background:rgba(200,146,58,.05);border:1px solid rgba(200,146,58,.14);padding:1rem 1.4rem;min-width:270px;max-width:310px;flex-shrink:0;}
+.seller-card-label{font-family:'DM Mono',monospace;font-size:.46rem;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);margin-bottom:.35rem;}
+.seller-card-text{font-size:.85rem;font-style:italic;color:var(--cream);line-height:1.5;}
+.seller-card-sub{font-family:'DM Mono',monospace;font-size:.46rem;color:var(--muted);margin-top:.5rem;letter-spacing:.08em;}
+.marquee-row2{padding:1rem 0;border-top:1px solid var(--border);}
+
+/* ── SECTIONS ── */
+.ornament{text-align:center;color:var(--border);font-size:1.1rem;letter-spacing:1.2rem;padding:1.8rem;}
+section.inner{padding:6rem 5rem;max-width:1400px;margin:0 auto;}
+.section-label{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.22em;text-transform:uppercase;color:var(--gold);margin-bottom:.9rem;display:flex;align-items:center;gap:.7rem;}
+.section-label::before{content:'';display:block;width:18px;height:1px;background:var(--gold);}
+.section-title{font-family:'Playfair Display',serif;font-size:clamp(1.9rem,3.5vw,3rem);font-weight:700;color:var(--cream);line-height:1.1;margin-bottom:.9rem;}
+.section-sub{font-size:.95rem;font-style:italic;color:var(--muted);max-width:500px;margin-bottom:3.5rem;}
+
+/* ── CATEGORIES ── */
+.cat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--border);border:1px solid var(--border);}
+.cat-card{background:var(--bg2);padding:2.2rem 1.8rem;text-decoration:none;color:inherit;transition:background .2s;display:block;-webkit-tap-highlight-color:transparent;}
+.cat-card:hover,.cat-card:active{background:var(--bg3);}
+.cat-era{font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);margin-bottom:.4rem;}
+.cat-icon{font-size:1.8rem;display:block;margin-bottom:.7rem;opacity:.85;}
+.cat-name{font-family:'Playfair Display',serif;font-size:1.2rem;font-weight:700;color:var(--cream);margin-bottom:.35rem;line-height:1.2;}
+.cat-desc{font-size:.85rem;color:var(--muted);font-style:italic;line-height:1.55;}
+.cat-link{font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);margin-top:1.2rem;display:flex;align-items:center;gap:.3rem;}
+
+/* ── LIVE LISTINGS (eBay sync) ── */
+#live-listings{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--border);border:1px solid var(--border);}
+.listing-card{background:var(--bg2);padding:1.6rem 1.4rem;text-decoration:none;color:inherit;display:flex;flex-direction:column;transition:background .2s;-webkit-tap-highlight-color:transparent;}
+.listing-card:hover,.listing-card:active{background:var(--bg3);box-shadow:inset 0 0 0 1px var(--gold);}
+.listing-img{width:100%;aspect-ratio:1;background:var(--stamp-bg);display:flex;align-items:center;justify-content:center;margin-bottom:1.2rem;border:8px solid var(--bg);overflow:hidden;position:relative;}
+.listing-img img{width:100%;height:100%;object-fit:cover;}
+.listing-img .listing-emoji{font-size:2rem;}
+.listing-img::before{content:'';position:absolute;inset:-8px;background:radial-gradient(circle at 0% 50%,transparent 4.5px,var(--bg) 4.5px) left center/7px 14px,radial-gradient(circle at 100% 50%,transparent 4.5px,var(--bg) 4.5px) right center/7px 14px,radial-gradient(circle at 50% 0%,transparent 4.5px,var(--bg) 4.5px) center top/14px 7px,radial-gradient(circle at 50% 100%,transparent 4.5px,var(--bg) 4.5px) center bottom/14px 7px;background-repeat:repeat-y,repeat-y,repeat-x,repeat-x;z-index:1;}
+.listing-scott{font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.12em;color:var(--gold);margin-bottom:.25rem;}
+.listing-title{font-family:'Playfair Display',serif;font-size:.9rem;font-weight:700;color:var(--cream);line-height:1.25;margin-bottom:.2rem;}
+.listing-year{font-family:'DM Mono',monospace;font-size:.5rem;color:var(--muted);margin-bottom:auto;}
+.listing-price{font-family:'Playfair Display',serif;font-size:1.3rem;font-weight:700;color:var(--gold2);margin-top:1.2rem;}
+.listing-cond{font-family:'DM Mono',monospace;font-size:.48rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:.2rem;}
+.loading-msg{grid-column:1/-1;text-align:center;padding:4rem 2rem;font-family:'DM Mono',monospace;font-size:.65rem;letter-spacing:.15em;color:var(--muted);}
+.listings-cta{text-align:center;margin-top:3rem;}
+
+/* ── TRUST BAND ── */
+.trust-band{background:var(--bg2);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:4.5rem 5rem;display:grid;grid-template-columns:repeat(4,1fr);gap:3.5rem;}
+.trust-item{text-align:center;}
+.trust-icon{font-size:1.7rem;display:block;margin-bottom:.9rem;}
+.trust-title{font-family:'Playfair Display',serif;font-size:1rem;font-weight:700;color:var(--cream);margin-bottom:.35rem;}
+.trust-desc{font-size:.85rem;font-style:italic;color:var(--muted);line-height:1.55;}
+
+/* ── ABOUT ── */
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:7rem;align-items:center;}
+.about-text{font-size:.95rem;color:var(--muted);line-height:2;margin-bottom:1.6rem;}
+.about-sig{font-family:'Playfair Display',serif;font-size:1.5rem;font-style:italic;color:var(--cream);margin-top:.8rem;}
+.trust-badge{display:inline-flex;align-items:center;gap:1.1rem;background:var(--bg3);border:1px solid var(--border);border-left:3px solid var(--gold);padding:1.2rem 1.6rem;margin-top:2rem;}
+.badge-score{font-family:'Playfair Display',serif;font-size:2rem;font-weight:900;color:var(--gold2);}
+.badge-text{font-family:'DM Mono',monospace;font-size:.55rem;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);line-height:1.9;}
+.about-visual{background:var(--bg2);border:1px solid var(--border);height:400px;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:1.8rem;position:relative;overflow:hidden;}
+.about-bg-word{position:absolute;font-family:'Playfair Display',serif;font-size:5.5rem;font-weight:900;color:rgba(200,146,58,.04);letter-spacing:.3em;user-select:none;}
+
+/* ── EMAIL / GHL ── */
+.email-section{background:linear-gradient(135deg,#1a0e06 0%,#0d0c0a 50%,#0f0d0a 100%);border-top:1px solid var(--border);border-bottom:1px solid var(--border);padding:6rem 5rem;text-align:center;position:relative;overflow:hidden;}
+.email-section::before{content:'· · · ✦ · · · ✦ · · · ✦ · · · ✦ · · ·';position:absolute;top:1.2rem;left:0;right:0;text-align:center;color:rgba(200,146,58,.15);font-size:.75rem;letter-spacing:.4rem;}
+.email-form{display:flex;gap:0;max-width:460px;margin:0 auto;border:1px solid var(--border);}
+.email-input{flex:1;padding:.9rem 1.3rem;border:none;background:var(--bg2);color:var(--cream);font-family:'Cormorant Garamond',serif;font-size:.95rem;font-style:italic;outline:none;min-width:0;}
+.email-input::placeholder{color:var(--muted);}
+.email-btn{padding:.9rem 1.5rem;background:var(--gold);color:var(--bg);border:none;font-family:'DM Mono',monospace;font-size:.6rem;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:background .2s;font-weight:500;white-space:nowrap;-webkit-tap-highlight-color:transparent;}
+.email-btn:hover,.email-btn:active{background:var(--gold2);}
+.email-note{font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.08em;color:var(--muted);margin-top:.9rem;}
+#emailFeedback{font-family:'DM Mono',monospace;font-size:.58rem;letter-spacing:.08em;color:var(--gold);margin-top:.7rem;min-height:1.1rem;}
+
+/* ── FOOTER ── */
+footer{background:var(--bg);border-top:1px solid var(--border);padding:5rem 5rem 3rem;display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:4rem;}
+.footer-tag{font-size:.85rem;font-style:italic;color:var(--muted);line-height:1.8;margin-top:.9rem;}
+.footer-col-title{font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);margin-bottom:1.3rem;}
+.footer-links{list-style:none;display:flex;flex-direction:column;gap:.75rem;}
+.footer-links a{font-size:.88rem;color:var(--muted);text-decoration:none;transition:color .2s;}
+.footer-links a:hover{color:var(--cream);}
+.footer-bottom{background:var(--bg);border-top:1px solid var(--border);padding:1.4rem 5rem;display:flex;justify-content:space-between;align-items:center;}
+.footer-copy{font-family:'DM Mono',monospace;font-size:.52rem;letter-spacing:.08em;color:var(--muted);}
+
+/* ════════════════════════════════════════
+   AI CHAT WIDGET — STAMP EXPERT
+   ════════════════════════════════════════ */
+#chat-widget{position:fixed;bottom:1.5rem;right:1.5rem;z-index:9000;display:flex;flex-direction:column;align-items:flex-end;gap:.8rem;}
+#chat-bubble{background:var(--gold);color:var(--bg);width:58px;height:58px;border-radius:50%;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 4px 24px rgba(200,146,58,.4);transition:all .25s;font-size:1.5rem;border:none;-webkit-tap-highlight-color:transparent;flex-shrink:0;}
+#chat-bubble:hover{background:var(--gold2);transform:scale(1.05);}
+#chat-bubble.active{background:var(--bg3);color:var(--gold);font-size:1.2rem;}
+#chat-box{background:var(--bg2);border:1px solid var(--border2);width:360px;max-width:calc(100vw - 2rem);height:520px;max-height:calc(100svh - 140px);display:none;flex-direction:column;box-shadow:0 20px 60px rgba(0,0,0,.7);animation:chatSlide .25s ease;}
+#chat-box.open{display:flex;}
+@keyframes chatSlide{from{opacity:0;transform:translateY(16px);}to{opacity:1;transform:translateY(0);}}
+#chat-header{background:var(--bg3);border-bottom:1px solid var(--border);padding:.9rem 1.2rem;display:flex;align-items:center;gap:.8rem;flex-shrink:0;}
+.chat-header-stamp{font-size:1.4rem;}
+.chat-header-info{flex:1;}
+.chat-header-name{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:700;color:var(--cream);}
+.chat-header-status{font-family:'DM Mono',monospace;font-size:.5rem;letter-spacing:.12em;text-transform:uppercase;color:var(--gold);display:flex;align-items:center;gap:.4rem;}
+.chat-status-dot{width:6px;height:6px;border-radius:50%;background:var(--gold);animation:statusPulse 2s ease infinite;}
+@keyframes statusPulse{0%,100%{opacity:1;}50%{opacity:.4;}}
+#chat-close{background:none;border:none;color:var(--muted);font-size:1.2rem;cursor:pointer;padding:.2rem;line-height:1;-webkit-tap-highlight-color:transparent;}
+#chat-close:hover{color:var(--cream);}
+#chat-messages{flex:1;overflow-y:auto;padding:1.2rem;display:flex;flex-direction:column;gap:1rem;scroll-behavior:smooth;}
+#chat-messages::-webkit-scrollbar{width:4px;}
+#chat-messages::-webkit-scrollbar-track{background:transparent;}
+#chat-messages::-webkit-scrollbar-thumb{background:var(--border);}
+.msg{display:flex;gap:.6rem;max-width:100%;}
+.msg.user{flex-direction:row-reverse;}
+.msg-avatar{width:30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.9rem;flex-shrink:0;background:var(--bg3);}
+.msg.user .msg-avatar{background:var(--gold);font-size:.7rem;color:var(--bg);font-family:'DM Mono',monospace;font-weight:500;}
+.msg-bubble{background:var(--bg3);padding:.7rem 1rem;font-size:.85rem;line-height:1.55;color:var(--text);max-width:calc(100% - 44px);border:1px solid var(--border);}
+.msg.user .msg-bubble{background:rgba(200,146,58,.12);border-color:rgba(200,146,58,.25);color:var(--cream);}
+.msg-bubble a{color:var(--gold);text-decoration:underline;}
+.typing{display:flex;gap:.3rem;align-items:center;padding:.5rem .8rem;}
+.typing span{width:6px;height:6px;border-radius:50%;background:var(--muted);animation:typingBounce 1.2s infinite;}
+.typing span:nth-child(2){animation-delay:.2s;}
+.typing span:nth-child(3){animation-delay:.4s;}
+@keyframes typingBounce{0%,100%{transform:translateY(0);}50%{transform:translateY(-5px);}}
+#chat-input-area{border-top:1px solid var(--border);padding:.9rem 1.2rem;display:flex;gap:.6rem;background:var(--bg3);flex-shrink:0;}
+#chat-input{flex:1;background:var(--bg2);border:1px solid var(--border);color:var(--cream);font-family:'Cormorant Garamond',serif;font-size:.9rem;font-style:italic;padding:.6rem .9rem;outline:none;resize:none;min-width:0;}
+#chat-input::placeholder{color:var(--muted);}
+#chat-send{background:var(--gold);color:var(--bg);border:none;width:36px;height:36px;cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:1rem;transition:background .2s;flex-shrink:0;-webkit-tap-highlight-color:transparent;}
+#chat-send:hover{background:var(--gold2);}
+.chat-quick-btns{display:flex;flex-wrap:wrap;gap:.4rem;padding:.6rem 1.2rem;border-top:1px solid var(--border);background:var(--bg2);flex-shrink:0;}
+.quick-btn{font-family:'DM Mono',monospace;font-size:.5rem;letter-spacing:.08em;text-transform:uppercase;background:none;border:1px solid var(--border);color:var(--muted);padding:.35rem .7rem;cursor:pointer;transition:all .2s;-webkit-tap-highlight-color:transparent;}
+.quick-btn:hover,.quick-btn:active{border-color:var(--gold);color:var(--gold);}
+
+/* ── ANIMATIONS ── */
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+.hero-left>*{animation:fadeUp .75s ease forwards;opacity:0;}
+.hero-left>*:nth-child(1){animation-delay:.1s;}
+.hero-left>*:nth-child(2){animation-delay:.22s;}
+.hero-left>*:nth-child(3){animation-delay:.36s;}
+.hero-left>*:nth-child(4){animation-delay:.5s;}
+.hero-left>*:nth-child(5){animation-delay:.64s;}
+
+/* ══════════════════
+   RESPONSIVE
+══════════════════ */
+@media(max-width:1100px){
+  nav{padding:.9rem 1.5rem;}
+  .nav-links{display:none;}
+  .nav-hamburger{display:flex;}
+  .hero{grid-template-columns:1fr;}
+  .hero-right{display:none;}
+  .hero-left{padding:3.5rem 2rem 3rem;}
+  section.inner{padding:4.5rem 2rem;}
+  .cat-grid{grid-template-columns:1fr 1fr;}
+  #live-listings{grid-template-columns:repeat(2,1fr);}
+  .trust-band{grid-template-columns:repeat(2,1fr);padding:3.5rem 2rem;gap:2.5rem;}
+  .about-grid{grid-template-columns:1fr;gap:2.5rem;}
+  .about-visual{height:300px;}
+  footer{grid-template-columns:1fr 1fr;padding:3.5rem 2rem 2rem;gap:2.5rem;}
+  .footer-bottom{padding:1.2rem 2rem;flex-direction:column;gap:.7rem;text-align:center;}
+  .email-section{padding:4.5rem 2rem;}
+  .marquee-header-text{display:block;}
+}
+@media(max-width:680px){
+  .nav-cta{display:none;}
+  .hero-left{padding:2.5rem 1.5rem 2rem;}
+  .hero-stats{gap:1.5rem;}
+  section.inner{padding:3.5rem 1.5rem;}
+  .cat-grid{grid-template-columns:1fr;}
+  #live-listings{grid-template-columns:1fr 1fr;}
+  .trust-band{grid-template-columns:1fr 1fr;padding:2.5rem 1.5rem;gap:2rem;}
+  .about-grid{gap:2rem;}
+  .email-section{padding:3.5rem 1.5rem;}
+  .email-form{flex-direction:column;}
+  footer{grid-template-columns:1fr;}
+  #chat-box{width:calc(100vw - 2rem);right:0;}
+  #chat-widget{right:1rem;bottom:1rem;}
+}
+@media(max-width:420px){
+  .hero-title{font-size:2.4rem;}
+  #live-listings{grid-template-columns:1fr;}
+  .trust-band{grid-template-columns:1fr;}
+}
+/* Touch scroll momentum */
+#chat-messages{-webkit-overflow-scrolling:touch;}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="#" class="nav-logo">Sticks<span>&</span>Stamps</a>
+  <ul class="nav-links">
+    <li><a href="#categories">Collections</a></li>
+    <li><a href="#featured">Listings</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Subscribe</a></li>
+  </ul>
+  <a href="https://www.ebay.com/usr/sticksandstamps" target="_blank" class="nav-cta">Shop eBay →</a>
+  <button class="nav-hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- MOBILE MENU -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#categories" onclick="toggleMenu()">Collections</a>
+  <a href="#featured" onclick="toggleMenu()">Live Listings</a>
+  <a href="#reviews" onclick="toggleMenu()">Reviews</a>
+  <a href="#about" onclick="toggleMenu()">About</a>
+  <a href="#contact" onclick="toggleMenu()">Subscribe</a>
+  <a href="https://www.ebay.com/usr/sticksandstamps" target="_blank" class="mobile-cta">Shop eBay Store →</a>
+</div>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-left">
+    <p class="hero-eyebrow">Trusted Since January 2004 · eBay Verified</p>
+    <h1 class="hero-title">Rare <em>American</em><br>Postage —<br>Curated.</h1>
+    <p class="hero-subtitle">Mint Never Hinged originals from the golden age of US postage. Washington, Franklin, Pan-Americans, Trans-Mississippi. Every stamp a piece of living history.</p>
+    <div class="hero-actions">
+      <a href="https://www.ebay.com/usr/sticksandstamps" target="_blank" class="btn-primary">Browse Collection</a>
+      <a href="#categories" class="btn-secondary">Explore by Era →</a>
+    </div>
+    <div class="hero-stats">
+      <div><span class="stat-number">675</span><span class="stat-label">Feedback Score</span></div>
+      <div><span class="stat-number">100%</span><span class="stat-label">Positive Rating</span></div>
+      <div><span class="stat-number">20+</span><span class="stat-label">Years on eBay</span></div>
+      <div><span class="stat-number">43+</span><span class="stat-label">Listings</span></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-stamp-wrap">
+      <div class="stamp-frame">
+        <span class="stamp-inner-label">Two Cents · MNH</span>
+        <span class="stamp-emoji">🦅</span>
+        <span class="stamp-inner-title">George<br>Washington</span>
+        <span class="stamp-usa">U · S · A</span>
+        <span class="stamp-year">1917 · Original Gum · Scott #499</span>
+      </div>
+      <p class="stamp-caption">★ Mint Never Hinged · Free US Shipping ★</p>
+    </div>
+  </div>
+</div>
+
+<!-- REVIEWS MARQUEE -->
+<div class="marquee-section" id="reviews">
+  <div class="marquee-header">
+    <span class="marquee-label">★ Verified Buyer Reviews</span>
+    <span class="marquee-header-text">789 feedback · 100% positive · 20+ years</span>
+    <span class="marquee-stars">★★★★★</span>
+  </div>
+  <div class="marquee-wrap"><div class="marquee-track" id="track1"></div></div>
+  <div class="marquee-wrap marquee-row2"><div class="marquee-track2" id="track2"></div></div>
+</div>
+
+<div class="ornament">✦ &nbsp; ✦ &nbsp; ✦</div>
+
+<!-- CATEGORIES -->
+<section class="inner" id="categories">
+  <p class="section-label">Browse by Era</p>
+  <h2 class="section-title">Every Era of<br>American Philately</h2>
+  <p class="section-sub">From Victorian classics to mid-century commemoratives — hand-selected for condition, gum, and authenticity.</p>
+  <div class="cat-grid">
+    <a href="https://www.ebay.com/usr/sticksandstamps" class="cat-card" target="_blank">
+      <span class="cat-era">1880s – 1900s</span><span class="cat-icon">🏛️</span>
+      <h3 class="cat-name">Victorian & Bureau Issues</h3>
+      <p class="cat-desc">Washington, Franklin, early definitives — the building blocks of any serious American collection.</p>
+      <p class="cat-link">Explore →</p>
+    </a>
+    <a href="https://www.ebay.com/usr/sticksandstamps" class="cat-card" target="_blank">
+      <span class="cat-era">1893 – 1907</span><span class="cat-icon">⚓</span>
+      <h3 class="cat-name">Commemorative Golden Age</h3>
+      <p class="cat-desc">Columbus, Trans-Mississippi, Pan-American, Jamestown — storytelling stamps of a new nation.</p>
+      <p class="cat-link">Explore →</p>
+    </a>
+    <a href="https://www.ebay.com/usr/sticksandstamps" class="cat-card" target="_blank">
+      <span class="cat-era">1918 – 1930s</span><span class="cat-icon">✈️</span>
+      <h3 class="cat-name">Airmail & Parcel Post</h3>
+      <p class="cat-desc">Curtiss Jenny, Mail Planes, Parcel Post workers — the romance of early American air and rail mail.</p>
+      <p class="cat-link">Explore →</p>
+    </a>
+    <a href="https://www.ebay.com/usr/sticksandstamps" class="cat-card" target="_blank">
+      <span class="cat-era">1938 – 1960s</span><span class="cat-icon">🌿</span>
+      <h3 class="cat-name">Presidential Series</h3>
+      <p class="cat-desc">Prexie series, Famous Americans, mid-century definitives in pristine MNH condition.</p>
+      <p class="cat-link">Explore →</p>
+    </a>
+    <a href="https://www.ebay.com/usr/sticksandstamps" class="cat-card" target="_blank">
+      <span class="cat-era">1980s – 1990s</span><span class="cat-icon">🦅</span>
+      <h3 class="cat-name">Modern Sheets & Wildlife</h3>
+      <p class="cat-desc">State Birds & Flowers, North American Wildlife, Celebrate the Century — complete pane sets.</p>
+      <p class="cat-link">Explore →</p>
+    </a>
+    <a href="https://www.ebay.com/usr/sticksandstamps" class="cat-card" target="_blank">
+      <span class="cat-era">Specialty</span><span class="cat-icon">🔍</span>
+      <h3 class="cat-name">Overprints & Imperfs</h3>
+      <p class="cat-desc">Nebraska overprints, imperforate pairs, scarce coil varieties — for the advanced collector.</p>
+      <p class="cat-link">Explore →</p>
+    </a>
+  </div>
+</section>
+
+<!-- LIVE LISTINGS -->
+<section class="inner" id="featured" style="padding-top:0;">
+  <p class="section-label">Live from eBay</p>
+  <h2 class="section-title">Current Listings</h2>
+  <p class="section-sub">Synced from the eBay store — all MNH with original gum unless noted. Free US shipping on all.</p>
+  <div id="live-listings">
+    <div class="loading-msg">⏳ Loading live listings from eBay…</div>
+  </div>
+  <div class="listings-cta" style="margin-top:2.5rem;">
+    <a href="https://www.ebay.com/usr/sticksandstamps" target="_blank" class="btn-primary">View All Listings on eBay</a>
+  </div>
+</section>
+
+<!-- TRUST BAND -->
+<div class="trust-band">
+  <div class="trust-item"><span class="trust-icon">★</span><h3 class="trust-title">100% Positive Feedback</h3><p class="trust-desc">675 verified transactions since 2004. Every buyer leaves satisfied.</p></div>
+  <div class="trust-item"><span class="trust-icon">🔍</span><h3 class="trust-title">Precisely Described</h3><p class="trust-desc">Accurate Scott numbers, grades, and gum status on every listing.</p></div>
+  <div class="trust-item"><span class="trust-icon">📦</span><h3 class="trust-title">Free US Shipping</h3><p class="trust-desc">Stamps ship safely in archival sleeves at no charge.</p></div>
+  <div class="trust-item"><span class="trust-icon">🤝</span><h3 class="trust-title">Best Offer Welcome</h3><p class="trust-desc">31 of 43 active listings accept offers. Fair deals for collectors.</p></div>
+</div>
+
+<!-- ABOUT -->
+<section class="inner" id="about">
+  <div class="about-grid">
+    <div>
+      <p class="section-label">About the Store</p>
+      <h2 class="section-title">A Collector<br>Selling to<br>Collectors</h2>
+      <p class="about-text">We source genuine MNH and original gum US stamps from the 19th and 20th century — the kind that hold their value and tell the real story of American postal history.</p>
+      <p class="about-text">Specialty: pre-1940 definitive and commemorative issues. Washington, Franklin, Columbus series, Pan-Americans, Airmail, Parcel Post — all honestly described and fairly priced since 2004.</p>
+      <p class="about-sig">— sticksandstamps</p>
+      <div class="trust-badge">
+        <span class="badge-score">675</span>
+        <span class="badge-text">Positive Feedback Score<br>eBay Member Since Jan 2004<br>100% Positive · US Seller</span>
+      </div>
+    </div>
+    <div class="about-visual">
+      <span class="about-bg-word">U · S · A</span>
+      <div class="stamp-frame" style="width:185px;height:235px;">
+        <span class="stamp-inner-label">Parcel Post · 1913</span>
+        <span class="stamp-emoji" style="font-size:2.4rem;">🚂</span>
+        <span class="stamp-inner-title">Railway<br>Postal Clerk</span>
+        <span class="stamp-usa">U · S · A</span>
+        <span class="stamp-year">Scott Q3 · MNH · OG</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EMAIL / GHL -->
+<div class="email-section" id="contact">
+  <p class="section-label" style="justify-content:center;color:rgba(200,146,58,.7);">First Access</p>
+  <h2 class="section-title" style="color:var(--cream);margin-bottom:.8rem;">New Listings.<br>Subscribers First.</h2>
+  <p class="section-sub" style="margin:0 auto 2.5rem;text-align:center;max-width:420px;">Join our collector list — get notified when rare stamps are listed before they go on eBay.</p>
+
+  <!-- REPLACE THIS BLOCK WITH YOUR GHL FORM EMBED CODE -->
+  <!-- GHL → Sites → Forms → your form → Get Embed Code -->
+  <div class="email-form">
+    <input type="email" class="email-input" placeholder="Your email address…" id="emailInput">
+    <button class="email-btn" onclick="submitEmail()">Subscribe →</button>
+  </div>
+  <!-- END GHL FORM BLOCK -->
+
+  <p class="email-note">No spam. Collector-to-collector. Unsubscribe anytime.</p>
+  <p id="emailFeedback"></p>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div>
+    <a href="#" class="nav-logo" style="display:block;margin-bottom:.9rem;">Sticks<span style="color:var(--gold)">&</span>Stamps</a>
+    <p class="footer-tag">Rare US postage from the golden age of American philately. Every stamp authenticated. Every listing honest. Trusted since 2004.</p>
+  </div>
+  <div>
+    <p class="footer-col-title">Shop</p>
+    <ul class="footer-links">
+      <li><a href="https://www.ebay.com/usr/sticksandstamps" target="_blank">All Listings</a></li>
+      <li><a href="https://www.ebay.com/usr/sticksandstamps" target="_blank">Pre-1900 Stamps</a></li>
+      <li><a href="https://www.ebay.com/usr/sticksandstamps" target="_blank">Airmail & Parcel Post</a></li>
+      <li><a href="https://www.ebay.com/usr/sticksandstamps" target="_blank">Modern Sheets</a></li>
+    </ul>
+  </div>
+  <div>
+    <p class="footer-col-title">Info</p>
+    <ul class="footer-links">
+      <li><a href="https://www.ebay.com/usr/sticksandstamps" target="_blank">Seller Feedback</a></li>
+      <li><a href="https://www.ebay.com/usr/sticksandstamps" target="_blank">Shipping Policy</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+  <div>
+    <p class="footer-col-title">Resources</p>
+    <ul class="footer-links">
+      <li><a href="https://stamps.org" target="_blank">APS</a></li>
+      <li><a href="https://www.psestamp.com" target="_blank">PSE Grading</a></li>
+      <li><a href="https://www.philatelicfoundation.org" target="_blank">Philatelic Foundation</a></li>
+    </ul>
+  </div>
+</footer>
+<div class="footer-bottom">
+  <p class="footer-copy">© 2026 Sticks & Stamps · 100% Positive Feedback Since 2004</p>
+  <p class="footer-copy">Built for collectors, by a collector.</p>
+</div>
+
+<!-- ════════════════════════════════════════════
+     AI CHAT WIDGET — STANLEY THE STAMP EXPERT
+     ════════════════════════════════════════════ -->
+<div id="chat-widget">
+  <div id="chat-box">
+    <div id="chat-header">
+      <span class="chat-header-stamp">📮</span>
+      <div class="chat-header-info">
+        <div class="chat-header-name">Stanley — Stamp Expert</div>
+        <div class="chat-header-status"><span class="chat-status-dot"></span>Online · Sticks &amp; Stamps</div>
+      </div>
+      <button id="chat-close" onclick="toggleChat()" aria-label="Close">✕</button>
+    </div>
+    <div id="chat-messages"></div>
+    <div class="chat-quick-btns">
+      <button class="quick-btn" onclick="quickAsk('What stamps do you have under $20?')">Under $20</button>
+      <button class="quick-btn" onclick="quickAsk('Tell me about MNH condition')">What is MNH?</button>
+      <button class="quick-btn" onclick="quickAsk('What are your most valuable stamps?')">Top Value</button>
+      <button class="quick-btn" onclick="quickAsk('Do you accept best offers?')">Best Offer?</button>
+    </div>
+    <div id="chat-input-area">
+      <textarea id="chat-input" placeholder="Ask about stamps, values, condition…" rows="1" onkeydown="handleKey(event)"></textarea>
+      <button id="chat-send" onclick="sendMessage()" aria-label="Send">➤</button>
+    </div>
+  </div>
+  <button id="chat-bubble" onclick="toggleChat()" aria-label="Open stamp expert chat">📮</button>
+</div>
+
+<script>
+// ════════════════════════════════════════════
+// KNOWLEDGE BASE — sticksandstamps
+// ════════════════════════════════════════════
+const STAMP_KB = `
+You are Stanley, the friendly stamp expert and sales assistant for "Sticks & Stamps" — an eBay store (username: sticksandstamps) run by a knowledgeable, passionate collector who has been selling since January 2004 with 100% positive feedback across 675+ transactions.
+
+STORE CHARACTER:
+- The seller has a warm, witty, enthusiastic personality — feedback shows they write things like "Land Ho! A+++", "Electric cars way back then! Shocking!!!", "Rebel without a pause… but with plenty of postage."
+- You reflect that same character: knowledgeable, friendly, a little poetic about stamps, genuinely excited about history
+- You are not a bot — you're Stanley, the store's stamp expert guide
+
+YOUR ROLE:
+- Help collectors identify, value, and understand US stamps
+- Answer questions about current and past inventory
+- Educate buyers on condition (MNH, OG, hinged, perf grades)
+- Guide people to the eBay store: https://www.ebay.com/usr/sticksandstamps
+- Handle any stamp question professionally and enthusiastically
+
+CURRENT ACTIVE INVENTORY (as of early 2026):
+- Scott #297 — Whirlpool Rapids Bridge, 1901 Pan-American — $39 — Best Offer
+- Scott #621 — Viking Ship, Norway & USA, 1925 — $15 — Best Offer
+- Scott #372 — Henry Hudson's Half Moon, 1909 — $8 — Buy It Now
+- Scott #628 — John Ericsson, 1926 — $3.33 — Best Offer
+- Scott #525 — George Washington, 1918 — $3.50 — Best Offer
+- Scott #2540 — Bald Eagle, 1991 — $5 — Best Offer
+- Scott #641 — Thomas Jefferson, 1927 — $3.50 — Best Offer
+- Scott #Q3 — Railway Postal Clerk, 1913 — $10.50 — Buy It Now
+- Scott #Q1 — Post Office Clerk, 1913 — $4 — Buy It Now
+- Scott #247 — Benjamin Franklin, 1894 — $20 — Best Offer
+- Scott #Q6 — Steamship Kronprinz Wilhelm, 1913 — $15 — Best Offer
+- Scott #3182 — Celebrate the Century 1900s, sheet of 15, 1998 — $5.50
+- Scott #735 — Admiral Byrd Antarctic Expedition Sheet, 1934 — $8
+- Scott #499 — George Washington, 1917 — $11 — Best Offer
+- Scott #324 — Thomas Jefferson, 1904 — $20 — Buy It Now
+- Scott #1280 — Frank Lloyd Wright, 2¢, 1966 — $19.99
+- Scott #553 — Warren G. Harding, 1925 — $4 — Best Offer
+- Scott #617 — Washington at Cambridge, 1925 — $5.25 — Best Offer
+- Scott #2542 — Bald Eagle, 1991 — $28 — Best Offer
+- Scott #2002d — State Birds & Flowers full pane, 1982 — $29.99
+- Scott #2219 — Presidents IV sheet of 9, 1986 — $2.50
+- Scott #Q4 — Rural Carrier, 1913 — $19.99 — Best Offer
+- Scott #330 — Pocahontas, 1907 — $150 — Best Offer
+- Scott #581 — Benjamin Franklin, 1923 — $12 — Best Offer
+- Scott #450 — George Washington, 1916 — $150 — Best Offer
+- Scott #C31 — Mail Plane, 1941 — $12 — Best Offer
+- Scott #C27 — Mail Plane, 1941 — $2.50 — Best Offer
+- Scott #677 — Ulysses S. Grant, Nebraska overprint, 1929 — $38 — Best Offer
+- Scott #385 — Benjamin Franklin, 1910 — $69.99 — Best Offer
+- Scott #398 — Panama Canal, 1913 — $18 — Best Offer
+- Scott #213 — George Washington, 1887, hinged — $25 — Best Offer
+- Scott #504a — Washington 5¢ pair, 1917 — $7 — Buy It Now
+- Scott #673 — Martha Washington, Nebraska overprint, 1929 — $30 — Best Offer
+- Scott #285 — Jacques Marquette, 1898 Trans-Mississippi — $35 — Best Offer
+- Scott #C28 — Mail Plane, 1941 — $3.50 — Best Offer
+- Scott #863 — Mark Twain (Samuel Clemens), 10¢, 1940 — $13 — Buy It Now
+- Scott #2335a — North American Wildlife 5 sheet package, 1987 — $60 — Best Offer
+- Scott #C30 — Mail Plane, 1941 — $7 — Best Offer
+- Scott #701 — Arlington Memorial Amphitheatre, 1932 — $50 — Best Offer
+- Scott #3204 — Sylvester and Tweety sheet of 10, 1998 — $10 — Buy It Now
+- Scott #721 — George Washington by Gilbert Stuart, 3¢, 1932 — $2.75 — Buy It Now
+- Scott #568 — Niagara Falls, 1922 — $25 — Best Offer
+- Scott #325 — James Monroe, 1904 — $75 — Best Offer
+
+RECENT SALES (context for value/demand):
+- Scott C3 Curtiss Jenny 1918: sold $120
+- Scott 459 Washington Imperf 1914: sold $200 and $250 (multiple sales)
+- Scott 251a Washington 1895: sold $80
+- Scott 237 Columbus 1893: sold $64
+- Scott 295 Empire State Express: sold $13.60
+- Scott Q9 Manufacturing 1913: sold $40
+- Scott 296 Electric Automobile: sold $28
+- Parcel Post series (Q-series) moves consistently well
+- Columbus/Trans-Mississippi series always in demand
+- Airmail (C-series) highly collectible, especially early Jenny issues
+
+KEY STAMP EDUCATION:
+MNH = Mint Never Hinged. No hinge mark, no gum disturbance. Best possible condition.
+OG = Original Gum. The gum applied at the post office, never disturbed.
+Perf = Perforation. The little holes along the stamp edge for separation.
+Imperf = Imperforate. No perfs — stamps separated by cutting. Rarer variant.
+Scott # = The universal collector reference number from the Scott Specialized Catalogue.
+NH vs H = Never Hinged vs Hinged. Hinged means a stamp mount was used on the back.
+PO Fresh = Post Office fresh. Absolutely pristine, as-issued condition.
+Trans-Mississippi 1898 = One of the most celebrated US commemorative series (Scott 285-293).
+Pan-American 1901 = Famous bicolored series, highly sought (Scott 294-299).
+Q-series = Parcel Post stamps, 1913. Visually rich, undervalued by many collectors.
+C-series = Airmail stamps. Curtiss Jenny (C1-C3) 1918 are among most desirable US stamps.
+
+SHIPPING & POLICIES:
+- Free shipping on all US orders
+- Stamps shipped in protective archival sleeves
+- Best Offer accepted on most listings
+- Combined shipping available — message seller on eBay
+
+CONTACT: https://www.ebay.com/usr/sticksandstamps
+Direct message available through eBay.
+
+TONE RULES:
+- Be enthusiastic but not pushy
+- Use stamp collector vocabulary naturally
+- If asked about a stamp not in inventory, still help educate and suggest checking the eBay store
+- Keep responses concise (2-4 sentences usually) but go longer for educational questions
+- End responses with a helpful nudge toward the store or next step when natural
+`;
+
+// ════════════════════════════════════════════
+// CHAT ENGINE
+// ════════════════════════════════════════════
+let chatHistory = [];
+let chatOpen = false;
+
+function toggleChat() {
+  chatOpen = !chatOpen;
+  const box = document.getElementById('chat-box');
+  const bubble = document.getElementById('chat-bubble');
+  if (chatOpen) {
+    box.classList.add('open');
+    bubble.classList.add('active');
+    bubble.textContent = '✕';
+    if (chatHistory.length === 0) showWelcome();
+  } else {
+    box.classList.remove('open');
+    bubble.classList.remove('active');
+    bubble.textContent = '📮';
+  }
+}
+
+function showWelcome() {
+  addMessage('bot', `Hello! I'm Stanley, the stamp expert for <strong>Sticks & Stamps</strong>. 🏛️<br><br>I can help you with stamp values, condition grades, what's currently in the store, or anything US philately. What are you curious about?`);
+}
+
+function addMessage(role, html) {
+  const msgs = document.getElementById('chat-messages');
+  const div = document.createElement('div');
+  div.className = `msg ${role}`;
+  const avatar = document.createElement('div');
+  avatar.className = 'msg-avatar';
+  avatar.textContent = role === 'bot' ? '📮' : 'You';
+  const bubble = document.createElement('div');
+  bubble.className = 'msg-bubble';
+  bubble.innerHTML = html;
+  div.appendChild(avatar);
+  div.appendChild(bubble);
+  msgs.appendChild(div);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function showTyping() {
+  const msgs = document.getElementById('chat-messages');
+  const div = document.createElement('div');
+  div.className = 'msg bot';
+  div.id = 'typing-indicator';
+  div.innerHTML = `<div class="msg-avatar">📮</div><div class="msg-bubble"><div class="typing"><span></span><span></span><span></span></div></div>`;
+  msgs.appendChild(div);
+  msgs.scrollTop = msgs.scrollHeight;
+}
+
+function removeTyping() {
+  const t = document.getElementById('typing-indicator');
+  if (t) t.remove();
+}
+
+async function sendMessage() {
+  const input = document.getElementById('chat-input');
+  const text = input.value.trim();
+  if (!text) return;
+  input.value = '';
+  input.style.height = 'auto';
+
+  addMessage('user', text);
+  chatHistory.push({ role: 'user', content: text });
+  showTyping();
+
+  try {
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        model: 'claude-sonnet-4-20250514',
+        max_tokens: 600,
+        system: STAMP_KB,
+        messages: chatHistory.slice(-10)
+      })
+    });
+    const data = await res.json();
+    const reply = data.content?.[0]?.text || "Sorry, I couldn't connect right now. Please try again or visit the eBay store directly!";
+    removeTyping();
+    addMessage('bot', reply.replace(/\n\n/g, '<br><br>').replace(/\n/g, '<br>'));
+    chatHistory.push({ role: 'assistant', content: reply });
+  } catch(e) {
+    removeTyping();
+    addMessage('bot', 'Connection hiccup! Try again, or <a href="https://www.ebay.com/usr/sticksandstamps" target="_blank">visit the eBay store directly</a>. 📮');
+  }
+}
+
+function quickAsk(q) {
+  document.getElementById('chat-input').value = q;
+  sendMessage();
+}
+
+function handleKey(e) {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+}
+
+// Auto-resize textarea
+document.getElementById('chat-input').addEventListener('input', function() {
+  this.style.height = 'auto';
+  this.style.height = Math.min(this.scrollHeight, 80) + 'px';
+});
+
+// ════════════════════════════════════════════
+// MOBILE MENU
+// ════════════════════════════════════════════
+function toggleMenu() {
+  document.getElementById('mobileMenu').classList.toggle('open');
+}
+
+// ════════════════════════════════════════════
+// REVIEW MARQUEES
+// ════════════════════════════════════════════
+const buyerReviews = [
+  {text:"BEAUTIFUL RELIC FROM THE PAST!! THANK YOU REGARDS MICHAEL.",item:"Scott #247 - Benjamin Franklin 1894",buyer:"mtos1295",price:"$20"},
+  {text:"Great eBay Seller AAA+++, Very Fast Shipping. I am a repeat buyer from this AAA+++ Seller.",item:"Scott #Q9 - Manufacturing 1913",buyer:"newenglandphil",price:"$40"},
+  {text:"Stamp arrived beautifully protected. As advertised. Great value and easy transaction.",item:"Scott #296 - Electric Automobile 1901",buyer:"dmz-14",price:"$28"},
+  {text:"I just got the stamp here. It will be cherished for years as a rare collector's item. Thank you.",item:"Scott #US C3 - Curtiss Jenny 1918",buyer:"allansjmh",price:"$120"},
+  {text:"Received in great condition, well packaged and shipped promptly.",item:"Scott #442 - George Washington 1914",buyer:"batt-4485",price:"$12.25"},
+  {text:"Fast service. Stamps in brand new condition. Thanks!",item:"Scott #459 - Washington Imperf 1914",buyer:"machinetrainbill",price:"$250"},
+  {text:"A+++++++ Super fast shipping. Great quality, value, and appearance. Arrived in excellent condition. Highly recommend.",item:"Scott #619 - The Minute Man 1925",buyer:"mtos1295",price:"$14"},
+  {text:"Items as advertised, great condition, good shipping/packing, and received promptly!",item:"Scott #585 - Martha Washington 1925",buyer:"cogvw",price:"$14"},
+  {text:"Nice stamp. Very satisfied.",item:"Scott #575 - Benjamin Franklin Imperf 1923",buyer:"paulblm",price:"$7"},
+  {text:"Excellent transaction, thanks",item:"Scott #459 - Washington Imperf 1914",buyer:"machinetrainbill",price:"$250"},
+  {text:"Absolutely spectacular seller, beautiful stamps, great communication and super fast shipping. Best of the best.",item:"Scott #3783 - Wright Brothers 2003",buyer:"jcross98",price:"$6"},
+  {text:"Awesome vintage stamps received quickly and safely packaged! A++++ seller ⭐⭐⭐",item:"Scott #731 - American Philatelic Society 1933",buyer:"jmattin",price:"$10"},
+  {text:"Everything about this transaction was great. I highly recommend sticksandstamps. I will deal again.",item:"Scott #3187 - Celebrate the Century 1950s",buyer:"billiam1946",price:"$5.50"},
+  {text:"Nice $5.00 Coolidge stamp in mint condition.",item:"Scott #834a - Calvin Coolidge $5 1938",buyer:"chamar-7307",price:"$25"},
+  {text:"Quick response. Item exactly as described. Arrived on time. Excellent A+++.",item:"Scott #297 - Whirlpool Rapids 1901",buyer:"cha-3869",price:"$45"},
+  {text:"Very nice set",item:"Scott #3142 - Classic American Aircraft 1997",buyer:"rdleard76",price:"$6"},
+  {text:"Great packaging.",item:"Scott #299 - Ocean Liner SS Saint Paul 1901",buyer:"cha-3869",price:"$81"},
+  {text:"Stamp properly described, well packaged and shipped promptly. Thanks. A+++++",item:"Scott #320c - Washington Imperf 1906",buyer:"jamesthomas07",price:"$15"},
+  {text:"Great Price. Great Stamp.",item:"Scott #3648 - Capitol Dome $13.85 2002",buyer:"chamar-7307",price:"$15"},
+  {text:"Great seller. Quick response",item:"Scott #1453 - Old Faithful 1972",buyer:"daytonautoha-0",price:"$1"},
+];
+
+const sellerReviews = [
+  {text:"Land Ho!!! A++++++",item:"Columbus in Sight of Land 1893",buyer:"mtos1295"},
+  {text:"Electric cars way back then! Shocking!!! A+++",item:"Electric Automobile 1901",buyer:"dmz-14"},
+  {text:"Rebel without a pause… but with plenty of postage.",item:"James Dean Sheet 1996",buyer:"psmingler"},
+  {text:"Genius sold! Great find! A rare imperf Franklin beautifully appreciated.",item:"Benjamin Franklin Imperf 1906",buyer:"batt-4485"},
+  {text:"Martha's memory, kept! Intact, no regret! A+++",item:"Martha Washington 1925",buyer:"cogvw"},
+  {text:"Rare Find!!! Reliable Buyer!!! A+++",item:"US C3 - Curtiss Jenny 1918",buyer:"allansjmh"},
+  {text:"This Buyer Takes Flight and leaves the rest Biting the Dust!!!",item:"First Flight of Wright Brothers 2003",buyer:"jcross98"},
+  {text:"A+++ Wilson's mint stamp, pristine, untouched, a collector's treasure!",item:"Woodrow Wilson 1925",buyer:"batt-4485"},
+  {text:"This buyer has an Eagle Eye!!! A+++ Highest rating possible!!!",item:"Calvin Coolidge $5 1938",buyer:"chamar-7307"},
+  {text:"A fine acquisition!!! those 20s flappers defied convention with style!",item:"Celebrate the Century 1920s",buyer:"052292"},
+  {text:"Wright's wonder, sold! Original gum, no mold! Thank you, enthusiast!",item:"Wright Flyer 1928",buyer:"whartel1232mb7"},
+  {text:"Mel's favorite!!! A+++",item:"The Dawn of Liberty 1925",buyer:"mtos1295"},
+  {text:"Great Vintage!!! Extraordinarily Smooth Trade!!! Buyer Highly Recommended!!!",item:"Rutherford B. Hayes 1922",buyer:"djawahl0"},
+  {text:"Barnstorming Buyer!!! Seamless Buys Incoming!!!",item:"Eddie Rickenbacker & Cochran 1995",buyer:"johnd582011"},
+  {text:"Lightning Buy. Never Before Seen Buyer A+++",item:"First Supersonic Flight 1997",buyer:"tydibolman"},
+  {text:"Wayne's World Now!!! A+++ Buyer!!!",item:"Space Achievement $11.75 2000",buyer:"waynes-coins"},
+  {text:"This buyer has what it takes!!! The sky's not cloudy A+++",item:"Cattle Sheet $1 1998",buyer:"chasa-544"},
+];
+
+function buildCards(data, seller) {
+  return data.map(r => seller
+    ? `<div class="seller-card"><p class="seller-card-label">✦ sticksandstamps says</p><p class="seller-card-text">${r.text}</p><p class="seller-card-sub">re: ${r.item} · To: ${r.buyer}</p></div>`
+    : `<div class="review-card"><div class="review-stars">★ ★ ★ ★ ★</div><p class="review-text">${r.text}</p><div class="review-meta"><span class="review-item">${r.item}</span><span class="review-buyer">${r.buyer}<br>${r.price}</span></div></div>`
+  ).join('');
+}
+
+const t1 = document.getElementById('track1');
+const t2 = document.getElementById('track2');
+const h1 = buildCards(buyerReviews, false);
+t1.innerHTML = h1 + h1;
+const h2 = buildCards(sellerReviews, true);
+t2.innerHTML = h2 + h2;
+
+// ════════════════════════════════════════════
+// LIVE LISTINGS — eBay RSS Feed Loader
+// NOTE: Replace the fallback with your deployed 
+//       ebay-sync.js data file (see scraper)
+// ════════════════════════════════════════════
+const FALLBACK_LISTINGS = [
+  {title:"Whirlpool Rapids Bridge",scott:"Scott #297",year:"1901 · Pan-American",price:"$39.00",cond:"MNH · OG · Best Offer",emoji:"🏛️",url:"https://www.ebay.com/usr/sticksandstamps"},
+  {title:"Niagara Falls, New York",scott:"Scott #568",year:"1922 · Flat Plate",price:"$25.00",cond:"MNH · OG · Best Offer",emoji:"🌊",url:"https://www.ebay.com/usr/sticksandstamps"},
+  {title:"Mail Plane C31",scott:"Scott #C31",year:"1941 · Airmail",price:"$12.00",cond:"MNH · OG · Best Offer",emoji:"✈️",url:"https://www.ebay.com/usr/sticksandstamps"},
+  {title:"Henry Hudson's Half Moon",scott:"Scott #372",year:"1909 · Hudson-Fulton",price:"$8.00",cond:"MNH · OG · Buy It Now",emoji:"⚓",url:"https://www.ebay.com/usr/sticksandstamps"},
+  {title:"Viking Ship Norway & USA",scott:"Scott #621",year:"1925 · Norse-American",price:"$15.00",cond:"MNH · OG · Best Offer",emoji:"🛳️",url:"https://www.ebay.com/usr/sticksandstamps"},
+  {title:"Railway Postal Clerk",scott:"Scott #Q3",year:"1913 · Parcel Post",price:"$10.50",cond:"MNH · OG · Buy It Now",emoji:"📯",url:"https://www.ebay.com/usr/sticksandstamps"},
+  {title:"Panama Canal",scott:"Scott #398",year:"1913 · Panama-Pacific",price:"$18.00",cond:"MNH · OG · Best Offer",emoji:"🌊",url:"https://www.ebay.com/usr/sticksandstamps"},
+  {title:"Jacques Marquette 1898",scott:"Scott #285",year:"1898 · Trans-Mississippi",price:"$35.00",cond:"MNH · OG · Best Offer",emoji:"📜",url:"https://www.ebay.com/usr/sticksandstamps"},
+];
+
+function renderListings(listings) {
+  const grid = document.getElementById('live-listings');
+  grid.innerHTML = listings.map(l => `
+    <a href="${l.url}" class="listing-card" target="_blank" rel="noopener">
+      <div class="listing-img">
+        ${l.image ? `<img src="${l.image}" alt="${l.title}" loading="lazy">` : `<span class="listing-emoji">${l.emoji||'📮'}</span>`}
+      </div>
+      <p class="listing-scott">${l.scott||''}</p>
+      <h3 class="listing-title">${l.title}</h3>
+      <p class="listing-year">${l.year||''}</p>
+      <p class="listing-price">${l.price}</p>
+      <p class="listing-cond">${l.cond||'MNH · Free Shipping'}</p>
+    </a>
+  `).join('');
+}
+
+// Try to load live data from synced JSON file (generated by scraper)
+// If not found, use fallback
+fetch('./listings-data.json')
+  .then(r => r.json())
+  .then(data => renderListings(data.slice(0, 8)))
+  .catch(() => renderListings(FALLBACK_LISTINGS));
+
+// ════════════════════════════════════════════
+// EMAIL / GHL SUBSCRIPTION
+// Replace GHL_WEBHOOK with your actual URL
+// Found in: GHL → Settings → Integrations → Webhooks
+// ════════════════════════════════════════════
+const GHL_WEBHOOK = 'https://YOUR-GHL-WEBHOOK-URL-HERE';
+
+function submitEmail() {
+  const email = document.getElementById('emailInput').value.trim();
+  const fb = document.getElementById('emailFeedback');
+  if (!email || !email.includes('@')) {
+    fb.textContent = 'Please enter a valid email address.';
+    fb.style.color = 'var(--rust2)';
+    return;
+  }
+  if (GHL_WEBHOOK.includes('YOUR-GHL')) {
+    fb.textContent = '✓ On the list! First access to new rare listings coming your way.';
+    fb.style.color = 'var(--gold)';
+    document.getElementById('emailInput').value = '';
+    return;
+  }
+  fetch(GHL_WEBHOOK, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ email, source: 'sticksandstamps-website', tags: ['stamp-collector','subscriber','new-listing-alerts'] })
+  }).then(() => {
+    fb.textContent = '✓ You\'re on the list! First access to new rare listings.';
+    fb.style.color = 'var(--gold)';
+    document.getElementById('emailInput').value = '';
+  }).catch(() => {
+    fb.textContent = 'Something went wrong. Please try again.';
+    fb.style.color = 'var(--rust2)';
+  });
+}
+document.getElementById('emailInput').addEventListener('keypress', e => { if (e.key === 'Enter') submitEmail(); });
+
+// ════════════════════════════════════════════
+// SCROLL FADE-IN
+// ════════════════════════════════════════════
+const obs = new IntersectionObserver((entries) => {
+  entries.forEach((entry, i) => {
+    if (entry.isIntersecting) {
+      setTimeout(() => {
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+      }, i * 60);
+      obs.unobserve(entry.target);
+    }
+  });
+}, { threshold: 0.08 });
+document.querySelectorAll('.cat-card,.trust-item').forEach(el => {
+  el.style.opacity = '0';
+  el.style.transform = 'translateY(16px)';
+  el.style.transition = 'opacity .45s ease, transform .45s ease';
+  obs.observe(el);
+});
+</script>
+</body>
+</html>
